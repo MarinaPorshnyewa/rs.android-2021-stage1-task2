@@ -4,6 +4,7 @@ class Abbreviation {
 
     // TODO: Complete the following function
     fun abbreviationFromA(a: String, b: String): String {
+
         var i: Int = 0
         var j: Int = 0
         var c: String = ""

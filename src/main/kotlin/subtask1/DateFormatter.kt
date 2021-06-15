@@ -4,6 +4,7 @@ class DateFormatter {
 
     // TODO: Complete the following function
     fun toTextDay(day: String, month: String, year: String): String {
+
         var dayInt: Int = day.toInt()
         val myMonthInt: Int = month.toInt()
         var MyYearInt: Int = year.toInt()

@@ -8,6 +8,7 @@ class Blocks {
 
     // TODO: Complete the following function
     fun getData(blockA: Array<*>, blockB: KClass<*>): Any {
+
         when(blockB){
             String::class -> return searchMyString(blockA.filterIsInstance<String>())
             Int::class -> return blockA.filterIsInstance<Int>().sum()
